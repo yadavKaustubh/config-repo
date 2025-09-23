@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+server:
+  error:
+    include-message: always
